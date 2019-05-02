@@ -1,0 +1,506 @@
+<?php
+    session_start();
+
+?>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Gaming Site</title>
+
+    <!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/icomoon.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-icon-57x57.png">
+    
+    
+    
+</head>
+<!--/head-->
+
+<body class="homepage">
+
+    <header id="header">
+
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="logo"></a>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.php">Home</a></li>
+                        <li><a href="games.php">Games</a></li>
+                        <li><a href="ranking.php">Ranking</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="contact-us.php">Contact Us</a></li>
+                                <li><a href="blog-item.php">Blog Single</a></li>
+                                <li><a href="pricing.php">Pricing</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about-us.php">About Us</a></li>
+                        <li class="login"><a href="login.php">Log in</a></li>
+                        <li class="signup"><a href="signup.php">Sign up</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.container-->
+        </nav>
+        <!--/nav-->
+
+    </header>
+    <!--/header-->
+
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="item active" style="background-image: url(images/slider/game4.jpg)">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Help Finding Information Online</h1>
+                                    <div class="animation animated-item-2">
+                                        Every new computer that’s brought home from the store has an operating system installed onto it.
+                                    </div>
+                                    <a class="btn-slide animation animated-item-3" href="#">Learn More</a>
+                                    <a class="btn-slide white animation animated-item-3" href="#">Get Started</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--/.item-->
+
+                <div class="item" style="background-image: url(images/slider/game6.jpg)">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Help Finding Information Online</h1>
+                                    <div class="animation animated-item-2">
+                                        Every new computer that’s brought home from the store has an operating system installed onto it.
+                                    </div>
+                                    <a class="btn-slide white animation animated-item-3" href="#">Learn More</a>
+                                    <a class="btn-slide animation animated-item-3" href="#">Get Started</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!--/.item-->
+
+            </div>
+            <!--/.carousel-inner-->
+        </div>
+        <!--/.carousel-->
+        <a class="prev hidden-xs hidden-sm" href="#main-slider" data-slide="prev">
+            <i class="fa fa-chevron-left"></i>
+        </a>
+        <a class="next hidden-xs hidden-sm" href="#main-slider" data-slide="next">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+    </section>
+    <!--/#main-slider-->
+
+    <section id="feature">
+        <div class="container">
+            <div class="center fadeInDown">
+                <h2>Features</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-3 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <div class="icon">
+                                <i class="fa fa-rocket"></i>
+                            </div>
+                            <h2>Fast</h2>
+                            <p>Having a baby can be a nerve wracking experience for new</p>
+                        </div>
+                    </div>
+                    <!--/.col-md-3-->
+                    <div class="col-md-3 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <div class="icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <h2>Easy</h2>
+                            <p>If you are looking for a new way to promote your business that</p>
+                        </div>
+                    </div>
+                    <!--/.col-md-3-->
+                    <div class="col-md-3 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <div class="icon">
+                                <i class="fa fa-bullhorn"></i>
+                            </div>
+                            <h2>Cheap</h2>
+                            <p>Okay, you’ve decided you want to make money with Affiliate</p>
+                        </div>
+                    </div>
+                    <!--/.col-md-3-->
+                    <div class="col-md-3 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <div class="icon">
+                                <i class="fa fa-arrows"></i>
+                            </div>
+                            <h2>Editable</h2>
+                            <p>A Pocket PC is a handheld computer, which features many</p>
+                        </div>
+                    </div>
+                    <!--/.col-md-3-->
+                </div>
+                <!--/.services-->
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </section>
+    <!--/#feature-->
+
+    <section id="recent-works">
+        <div class="container">
+            <div class="center fadeInDown">
+                <h2>Recent Works</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 single-work">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/game9.jpeg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <a class="preview" href="images/portfolio/game9.jpeg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 single-work">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/game2.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <a class="preview" href="images/portfolio/game2.jpg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 single-work">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/game3.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <a class="preview" href="images/portfolio/game3.jpg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 single-work">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/game10.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <a class="preview" href="images/portfolio/game10.jpg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 single-work">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/game7.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <a class="preview" href="images/portfolio/game7.jpg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 single-work">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/game8.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <a class="preview" href="images/portfolio/game8.jpg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.row-->
+            <div class="clearfix text-center">
+                <br>
+                <br>
+                <a href="#" class="btn btn-primary">Show More</a>
+            </div>
+        </div>
+        <!--/.container-->
+    </section>
+    <!--/#recent-works-->
+
+
+    <section id="middle" class="skill-area" style="background-image: url(images/skill-bg.png)">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 fadeInDown">
+                    <div class="skill">
+                        <h2>Our Skills</h2>
+                        <p>All users on MySpace will know that there are millions of people out there. Every <br> day besides so many people joining this community.</p>
+                    </div>
+                </div>
+                <!--/.col-sm-6-->
+
+                <div class="col-sm-6">
+                    <div class="progress-wrap">
+                        <h3>Game Design</h3>
+                        <div class="progress">
+                            <div class="progress-bar  color1" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                                <span class="bar-width">85%</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="progress-wrap">
+                        <h3>Perfromance</h3>
+                        <div class="progress">
+                            <div class="progress-bar color2" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                                <span class="bar-width">95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="progress-wrap">
+                        <h3>User Experience</h3>
+                        <div class="progress">
+                            <div class="progress-bar color3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                <span class="bar-width">80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="progress-wrap">
+                        <h3>User Satisfaction</h3>
+                        <div class="progress">
+                            <div class="progress-bar color4" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                <span class="bar-width">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </section>
+    <!--/#middle-->
+
+    <section id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 fadeInDown">
+                    <div class="tab-wrap">
+                        <div class="media">
+                            <div class="parrent pull-left">
+                                <ul class="nav nav-tabs nav-stacked">
+                                    <li class=""><a href="#tab1" data-toggle="tab" class="analistic-01">Responsive Web Design</a></li>
+                                    <li class="active"><a href="#tab2" data-toggle="tab" class="analistic-02">Premium Plugin Included</a></li>
+                                    <li class=""><a href="#tab3" data-toggle="tab" class="tehnical">Predefine Layout</a></li>
+                                    <li class=""><a href="#tab4" data-toggle="tab" class="tehnical">Our Philosopy</a></li>
+                                    <li class=""><a href="#tab5" data-toggle="tab" class="tehnical">What We Do?</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="parrent media-body">
+                                <div class="tab-content">
+                                    <div class="tab-pane fade" id="tab1">
+                                        <div class="media">
+                                            <div class="pull-left">
+                                                <img class="img-responsive" src="images/tab2.png">
+                                            </div>
+                                            <div class="media-body">
+                                                <h2>Adipisicing elit</h2>
+                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane fade active in text-right" id="tab2">
+                                        <div class="video-box">
+                                            <img src="images/tab-video-bg.png" alt="video">
+                                            <a class="video-icon" href="http://www.youtube.com/watch?v=cH6kxtzovew" rel="prettyPhoto"><i class="fa fa-play"></i></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="tab3">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="tab4">
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words</p>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="tab5">
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,</p>
+                                    </div>
+                                </div>
+                                <!--/.tab-content-->
+                            </div>
+                            <!--/.media-body-->
+                        </div>
+                        <!--/.media-->
+                    </div>
+                    <!--/.tab-wrap-->
+                </div>
+                <!--/.col-sm-6-->
+
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </section>
+    <!--/#content-->
+
+    <section id="testimonial">
+        <div class="container">
+            <div class="center fadeInDown">
+                <h2>Testimonials</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+            <div class="testimonial-slider owl-carousel">
+                <div class="single-slide">
+                    <div class="slide-img">
+                        <img src="images/client1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <img src="images/review.png" alt="">
+                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                        <h4>- Charlotte Daniels</h4>
+                    </div>
+                </div>
+                <div class="single-slide">
+                    <div class="slide-img">
+                        <img src="images/client2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <img src="images/review.png" alt="">
+                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                        <h4>- Charlotte Daniels</h4>
+                    </div>
+                </div>
+                <div class="single-slide">
+                    <div class="slide-img">
+                        <img src="images/client3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <img src="images/review.png" alt="">
+                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                        <h4>- Charlotte Daniels</h4>
+                    </div>
+                </div>
+                <div class="single-slide">
+                    <div class="slide-img">
+                        <img src="images/client2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <img src="images/review.png" alt="">
+                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                        <h4>- Charlotte Daniels</h4>
+                    </div>
+                </div>
+                <div class="single-slide">
+                    <div class="slide-img">
+                        <img src="images/client1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <img src="images/review.png" alt="">
+                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                        <h4>- Charlotte Daniels</h4>
+                    </div>
+                </div>
+                <div class="single-slide">
+                    <div class="slide-img">
+                        <img src="images/client3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <img src="images/review.png" alt="">
+                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                        <h4>- Charlotte Daniels</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2019 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">GemuGaming</a>. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
